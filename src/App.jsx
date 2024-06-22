@@ -4,9 +4,10 @@ import Chats from "./chat/Chats";
 import List from "./list/list";
 import Detail from "./details/detail";
 import Login from "./login/Login";
+// import Notification from "./notification/notification";
 const App = () => {
 
-const user= false;
+const user= true  ;
 
   return (
     <div className='container flex '>
@@ -17,6 +18,7 @@ const user= false;
            <Detail/>
            </>
            ) :(<Login/>)}
+           {/* <Notification/> */}
     </div>
   
   )
